@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class ratAppear : MonoBehaviour
 {
@@ -14,22 +15,31 @@ public class ratAppear : MonoBehaviour
     public float waitForSpawn;
     public bool spawn;
     public int tries;
+    public bool perdera= false;
+    public TextMeshProUGUI perder;
     // Start is called before the first frame update
     void Start()
     {
         StartCoroutine(ratSpawner());
+        perder.text = "";
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (globals.highscore < 10)
+        if (globals.highscore < 20 && globals.lives > 0)
         {
-            waitForSpawn = Random.Range(minWaitTime - 0.1f - globals.highscore, maxWaitTime + 1 - globals.highscore);
+            waitForSpawn = Random.Range(minWaitTime - 0.1f * globals.highscore, maxWaitTime + 1 - 0.2f * globals.highscore);
         }
-        else
+        else if (globals.lives > 0)
         {
-            waitForSpawn = Random.Range(0.1f, 1);
+            waitForSpawn = Random.Range(0.3f, 1.3f);
+        }
+        else if (globals.lives <= 0 && perdera == false)
+        {
+            waitForSpawn = 10;
+            perder.text = ("YOU LOSE \n" + "Highscore = " + globals.highscore);
+            perdera = true;
         }
          
     }

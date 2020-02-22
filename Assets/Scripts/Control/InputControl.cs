@@ -8,9 +8,17 @@ public class InputControl : MonoBehaviour
 {
     public Collider2D rat;
     bool killable = false;
+    int currentMax = 0;
+    
 
     public CircleCollider2D colision;
 
+
+    public void Start()
+    {
+        globals.lives = 3;
+        globals.highscore = 0;
+    }
 
 
     public void MoveBox()
@@ -36,6 +44,11 @@ public class InputControl : MonoBehaviour
         {
             Destroy(rat.gameObject);
             globals.highscore++;
+            currentMax++;
+            if (currentMax > globals.maxscore)
+            {
+                globals.maxscore = currentMax;
+            }
         }
     }
 

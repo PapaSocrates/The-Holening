@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 5157879722511501114}
   - component: {fileID: 7089381982544318113}
   - component: {fileID: 5603932764756650434}
+  - component: {fileID: 5869984063309209123}
+  - component: {fileID: 5845524657268080068}
   m_Layer: 0
   m_Name: ratBase
   m_TagString: Rat
@@ -28,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 3640112198207911928}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.90926045, y: 0.2936651, z: 0}
-  m_LocalScale: {x: 5, y: 5, z: 1}
+  m_LocalScale: {x: 0.2, y: 0.2, z: 1}
   m_Children:
   - {fileID: 3031222925787756472}
   m_Father: {fileID: 0}
@@ -73,7 +75,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 4030473150793562164, guid: 95162d8319263514ab07c3209d327e57,
+    type: 3}
   m_Color: {r: 0.9811321, g: 0.941097, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -99,7 +102,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.13
+  m_Radius: 1
 --- !u!50 &5603932764756650434
 Rigidbody2D:
   serializedVersion: 4
@@ -121,6 +124,41 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!95 &5869984063309209123
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3640112198207911928}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 45d5351ab1e297d4d9e6b33ae428fde7, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &5845524657268080068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3640112198207911928}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11b4f8dafae765344afd33031d019f5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timer: 0
+  ratatui: {fileID: 5350431598241339219, guid: b6e05cbee102e1346bbd91011c5308da, type: 3}
+  timeToRat: 4
+  timeToBreak: 1
 --- !u!1 &5532743266208068779
 GameObject:
   m_ObjectHideFlags: 0
