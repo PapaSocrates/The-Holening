@@ -32,14 +32,14 @@ public class ratAppear : MonoBehaviour
         while (spawn)
         {
             Vector2 spawnPos = new Vector2(Random.Range(-ratPositionX, +ratPositionX + 1), Random.Range(-ratPositionY, ratPositionY + 1));
-            
-            RaycastHit2D hit = Physics2D.CircleCast(new Vector2 (spawnPos.x, spawnPos.y -1), 1f, Vector2.up);
+
+            bool hit = Physics2D.OverlapCircle(new Vector2(spawnPos.x, spawnPos.y - 1), 1f);
             Debug.DrawRay(spawnPos, Vector2.up , Color.green, 5);
 
             while (hit)
             {
                 spawnPos = new Vector2(Random.Range(-ratPositionX, +ratPositionX + 1), Random.Range(-ratPositionY, ratPositionY + 1));
-                hit = Physics2D.CircleCast(new Vector2(spawnPos.x, spawnPos.y - 1), 1f, Vector2.up);
+                hit = Physics2D.OverlapCircle(new Vector2(spawnPos.x, spawnPos.y - 1), 1f);
                 Debug.DrawRay(spawnPos, Vector2.up , Color.red, 5);
             }
 

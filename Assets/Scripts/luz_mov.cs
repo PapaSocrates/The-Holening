@@ -15,7 +15,6 @@ public class luz_mov : MonoBehaviour
     {
 
         float angle = rotateSpeed * Time.deltaTime;
-        print(transform.rotation.eulerAngles.z);
 
 
         if (transform.rotation.eulerAngles.z >= targetRotacion && transform.rotation.eulerAngles.z < 35 && derecha == true)
@@ -27,7 +26,6 @@ public class luz_mov : MonoBehaviour
 
         else if (transform.rotation.eulerAngles.z <= 360 - targetRotacion && transform.rotation.eulerAngles.z > 35 && derecha == false)
         {
-            print("girar");
             rotateSpeed = -rotateSpeed;
             derecha = true;
 
