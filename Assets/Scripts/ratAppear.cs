@@ -13,6 +13,7 @@ public class ratAppear : MonoBehaviour
     public float maxWaitTime;
     public float waitForSpawn;
     public bool spawn;
+    public int tries;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,7 +23,15 @@ public class ratAppear : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        waitForSpawn = Random.Range(minWaitTime, maxWaitTime + 1); 
+        if (globals.highscore < 10)
+        {
+            waitForSpawn = Random.Range(minWaitTime - 0.1f - globals.highscore, maxWaitTime + 1 - globals.highscore);
+        }
+        else
+        {
+            waitForSpawn = Random.Range(0.1f, 1);
+        }
+         
     }
 
     IEnumerator ratSpawner()
@@ -31,21 +40,25 @@ public class ratAppear : MonoBehaviour
 
         while (spawn)
         {
-            Vector2 spawnPos = new Vector2(Random.Range(-ratPositionX, +ratPositionX + 1), Random.Range(-ratPositionY, ratPositionY + 1));
+            tries = 0;
+            Vector2 spawnPos = new Vector2(Random.Range(-ratPositionX, ratPositionX + 1), Random.Range(-ratPositionY - 2.6f, ratPositionY + 0.3f));
 
             bool hit = Physics2D.OverlapCircle(new Vector2(spawnPos.x, spawnPos.y - 1), 1f);
             Debug.DrawRay(spawnPos, Vector2.up , Color.green, 5);
 
-            while (hit)
+            while (hit && tries <3)
             {
-                spawnPos = new Vector2(Random.Range(-ratPositionX, +ratPositionX + 1), Random.Range(-ratPositionY, ratPositionY + 1));
+                spawnPos = new Vector2(Random.Range(-ratPositionX, ratPositionX + 1), Random.Range(-ratPositionY - 2.7f, ratPositionY + 0.3f));
                 hit = Physics2D.OverlapCircle(new Vector2(spawnPos.x, spawnPos.y - 1), 1f);
                 Debug.DrawRay(spawnPos, Vector2.up , Color.red, 5);
+                tries += 1;
+            }
+            if (tries < 3)
+            {
+                Instantiate(ratBase, spawnPos, gameObject.transform.rotation);
             }
 
-            Instantiate(ratBase, spawnPos, gameObject.transform.rotation);
             yield return new WaitForSeconds(waitForSpawn);
-
         }
 
     }

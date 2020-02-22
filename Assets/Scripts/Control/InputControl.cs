@@ -34,6 +34,7 @@ public class InputControl : MonoBehaviour
         if (colision.IsTouching(rat))
         {
             Destroy(rat.gameObject);
+            globals.highscore++;
         }
     }
 
