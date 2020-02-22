@@ -1,0 +1,931 @@
+fileFormatVersion: 2
+guid: e204256e2ca4008468b70cf2ec4c6890
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1641464458618141811
+    second: Agujero Haciendose_0
+  - first:
+      213: -1178819699270189551
+    second: Agujero Haciendose_0
+  - first:
+      213: -5473672234494107444
+    second: Agujero Haciendose_1
+  - first:
+      213: 972126667268012708
+    second: Agujero Haciendose_2
+  - first:
+      213: -4475905088137201471
+    second: Agujero Haciendose_3
+  - first:
+      213: 5164288322434545046
+    second: Agujero Haciendose_4
+  - first:
+      213: -4506780700481749580
+    second: Agujero Haciendose_5
+  - first:
+      213: -2854623589892465377
+    second: Agujero Haciendose_6
+  - first:
+      213: 3631949745577650382
+    second: Agujero Haciendose_7
+  - first:
+      213: 7319450070651800227
+    second: Agujero Haciendose_8
+  - first:
+      213: 1731822335402153440
+    second: Agujero Haciendose_9
+  - first:
+      213: 7765065988459405248
+    second: Agujero Haciendose_10
+  - first:
+      213: -9075824050955719271
+    second: Agujero Haciendose_11
+  - first:
+      213: 9202828818945000846
+    second: Agujero Haciendose_12
+  - first:
+      213: 1650266223603711379
+    second: Agujero Haciendose_13
+  - first:
+      213: 1649117793165292971
+    second: Agujero Haciendose_14
+  - first:
+      213: -2129100786985820318
+    second: Agujero Haciendose_15
+  - first:
+      213: 2949804189241573835
+    second: Agujero Haciendose_16
+  - first:
+      213: -8142685722641291527
+    second: Agujero Haciendose_17
+  - first:
+      213: -3429596870159679409
+    second: Agujero Haciendose_18
+  - first:
+      213: -1939791117604676627
+    second: Agujero Haciendose_19
+  - first:
+      213: 3964605708051853359
+    second: Agujero Haciendose_20
+  - first:
+      213: 5684781117489271620
+    second: Agujero Haciendose_21
+  - first:
+      213: 1792203619039848995
+    second: Agujero Haciendose_22
+  - first:
+      213: 4814628222012299730
+    second: Agujero Haciendose_23
+  - first:
+      213: 8316390913290341706
+    second: Agujero Haciendose_24
+  - first:
+      213: -3143229719322372768
+    second: Agujero Haciendose_25
+  - first:
+      213: -2725556050617254872
+    second: Agujero Haciendose_26
+  - first:
+      213: 2620596740019693962
+    second: Agujero Haciendose_27
+  - first:
+      213: -5484123803731264969
+    second: Agujero Haciendose_28
+  - first:
+      213: -3743778576255221079
+    second: Agujero Haciendose_29
+  - first:
+      213: 8738111750410158013
+    second: Agujero Haciendose_30
+  - first:
+      213: 2799535870622551954
+    second: Agujero Haciendose_31
+  - first:
+      213: 15615338621841610
+    second: Agujero Haciendose_32
+  - first:
+      213: 1915847016153544276
+    second: Agujero Haciendose_33
+  - first:
+      213: -4994109843109273013
+    second: Agujero Haciendose_34
+  - first:
+      213: -7743753503596611110
+    second: Agujero Haciendose_35
+  - first:
+      213: 6303727431217880373
+    second: Agujero Haciendose_36
+  - first:
+      213: -7253673814298679902
+    second: Agujero Haciendose_37
+  - first:
+      213: 557797574083956227
+    second: Agujero Haciendose_38
+  - first:
+      213: 7309476418139147122
+    second: Agujero Haciendose_39
+  - first:
+      213: 2066835101760065446
+    second: Agujero Haciendose_40
+  - first:
+      213: -994857230590877317
+    second: Agujero Haciendose_41
+  - first:
+      213: -8138727489768101332
+    second: Agujero Haciendose_42
+  - first:
+      213: -2197867948801463398
+    second: Agujero Haciendose_43
+  - first:
+      213: 5318161172577936488
+    second: Agujero Haciendose_44
+  - first:
+      213: -1713907617236719287
+    second: Agujero Haciendose_45
+  - first:
+      213: -8807297893350446662
+    second: Agujero Haciendose_46
+  - first:
+      213: -1134534753176668068
+    second: Agujero Haciendose_47
+  - first:
+      213: 8158403884105315567
+    second: Agujero Haciendose_48
+  - first:
+      213: 3395810370492665718
+    second: Agujero Haciendose_49
+  - first:
+      213: -3817368080836056355
+    second: Agujero Haciendose_50
+  - first:
+      213: -5715582610885965152
+    second: Agujero Haciendose_51
+  - first:
+      213: 6472058316769728824
+    second: Agujero Haciendose_52
+  - first:
+      213: -9172574237324557258
+    second: Agujero Haciendose_53
+  - first:
+      213: 741877949875851005
+    second: Agujero Haciendose_54
+  - first:
+      213: -2722145212012026297
+    second: Agujero Haciendose_55
+  - first:
+      213: 5862066634675776102
+    second: Agujero Haciendose_56
+  - first:
+      213: -5302920288985101844
+    second: Agujero Haciendose_57
+  - first:
+      213: 7152960710641394426
+    second: Agujero Haciendose_58
+  - first:
+      213: -4969831599901105314
+    second: Agujero Haciendose_59
+  - first:
+      213: -7405251934442218247
+    second: Agujero Haciendose_60
+  - first:
+      213: 4975709533203612118
+    second: Agujero Haciendose_61
+  - first:
+      213: -6529112030414518424
+    second: Agujero Haciendose_62
+  - first:
+      213: 7419830566683739602
+    second: Agujero Haciendose_63
+  - first:
+      213: 6691953338313669680
+    second: Agujero Haciendose_64
+  - first:
+      213: 6134879156038964471
+    second: Agujero Haciendose_65
+  - first:
+      213: 3271448095494233359
+    second: Agujero Haciendose_66
+  - first:
+      213: 2258327747167074544
+    second: Agujero Haciendose_67
+  - first:
+      213: 5251735672685885065
+    second: Agujero Haciendose_68
+  - first:
+      213: 7438456515894871870
+    second: Agujero Haciendose_69
+  - first:
+      213: -6935294823634068904
+    second: Agujero Haciendose_70
+  - first:
+      213: -8952311512220583633
+    second: Agujero Haciendose_71
+  - first:
+      213: -556510839763618109
+    second: Agujero Haciendose_72
+  - first:
+      213: -8763980875434512453
+    second: Agujero Haciendose_73
+  - first:
+      213: -6697850386148856607
+    second: Agujero Haciendose_74
+  - first:
+      213: -3683756049905860144
+    second: Agujero Haciendose_75
+  - first:
+      213: 7176270110645416415
+    second: Agujero Haciendose_76
+  - first:
+      213: 1902367245918704713
+    second: Agujero Haciendose_77
+  - first:
+      213: 3831930845041379549
+    second: Agujero Haciendose_78
+  - first:
+      213: -7188006663420115574
+    second: Agujero Haciendose_79
+  - first:
+      213: 5457620517426142806
+    second: Agujero Haciendose_80
+  - first:
+      213: 4995191493817614196
+    second: Agujero Haciendose_81
+  - first:
+      213: 2688034368490258532
+    second: Agujero Haciendose_82
+  - first:
+      213: -2077742448711231829
+    second: Agujero Haciendose_83
+  - first:
+      213: -4148908582035269919
+    second: Agujero Haciendose_84
+  - first:
+      213: 2803419464077379749
+    second: Agujero Haciendose_85
+  - first:
+      213: -6988304612606904932
+    second: Agujero Haciendose_86
+  - first:
+      213: -2584132989577153371
+    second: Agujero Haciendose_87
+  - first:
+      213: -7740530041460788740
+    second: Agujero Haciendose_88
+  - first:
+      213: -6422794059597229342
+    second: Agujero Haciendose_89
+  - first:
+      213: 1982556546175407206
+    second: Agujero Haciendose_90
+  - first:
+      213: -7045314451709688988
+    second: Agujero Haciendose_91
+  - first:
+      213: 892634362995538439
+    second: Agujero Haciendose_92
+  - first:
+      213: -4397908032135935428
+    second: Agujero Haciendose_93
+  - first:
+      213: -3045249066392813261
+    second: Agujero Haciendose_94
+  - first:
+      213: 3631012903762051371
+    second: Agujero Haciendose_95
+  - first:
+      213: 3521096579146219476
+    second: Agujero Haciendose_96
+  - first:
+      213: 7266310019458366013
+    second: Agujero Haciendose_97
+  - first:
+      213: 1108475536525053681
+    second: Agujero Haciendose_98
+  - first:
+      213: 7334847839734592341
+    second: Agujero Haciendose_99
+  - first:
+      213: -8083915880333254840
+    second: Agujero Haciendose_100
+  - first:
+      213: 302379537578360128
+    second: Agujero Haciendose_101
+  - first:
+      213: -8183950541875716464
+    second: Agujero Haciendose_102
+  - first:
+      213: 5106983767537020763
+    second: Agujero Haciendose_103
+  - first:
+      213: 4838429227442386444
+    second: Agujero Haciendose_104
+  - first:
+      213: -1066417404382780224
+    second: Agujero Haciendose_105
+  - first:
+      213: -2535404115968217840
+    second: Agujero Haciendose_106
+  - first:
+      213: -618035112021865708
+    second: Agujero Haciendose_107
+  - first:
+      213: -1103103461483079107
+    second: Agujero Haciendose_108
+  - first:
+      213: 8891566962148145113
+    second: Agujero Haciendose_109
+  - first:
+      213: -8637913715890210156
+    second: Agujero Haciendose_110
+  - first:
+      213: 5562625048081701065
+    second: Agujero Haciendose_111
+  - first:
+      213: -4047145548179364898
+    second: Agujero Haciendose_112
+  - first:
+      213: 4562408467489109172
+    second: Agujero Haciendose_113
+  - first:
+      213: -8946816031503859713
+    second: Agujero Haciendose_114
+  - first:
+      213: 8464257904934905651
+    second: Agujero Haciendose_115
+  - first:
+      213: -4567117398378461533
+    second: Agujero Haciendose_116
+  - first:
+      213: 4811036529550396306
+    second: Agujero Haciendose_117
+  - first:
+      213: -2096242688695347438
+    second: Agujero Haciendose_118
+  - first:
+      213: 2405368626859480293
+    second: Agujero Haciendose_119
+  - first:
+      213: 5160497855842872739
+    second: Agujero Haciendose_120
+  - first:
+      213: -5069661837132085693
+    second: Agujero Haciendose_121
+  - first:
+      213: -5392409968757683129
+    second: Agujero Haciendose_122
+  - first:
+      213: 6327464701937465896
+    second: Agujero Haciendose_123
+  - first:
+      213: -8332708885123527274
+    second: Agujero Haciendose_124
+  - first:
+      213: 4379820887995338875
+    second: Agujero Haciendose_125
+  - first:
+      213: -2345047385468107585
+    second: Agujero Haciendose_126
+  - first:
+      213: 468607975697856501
+    second: Agujero Haciendose_127
+  - first:
+      213: -129792253431859241
+    second: Agujero Haciendose_128
+  - first:
+      213: -3781540425773715828
+    second: Agujero Haciendose_129
+  - first:
+      213: -906102696344205569
+    second: Agujero Haciendose_130
+  - first:
+      213: -8249912491223603380
+    second: Agujero Haciendose_131
+  - first:
+      213: 2058467271493561776
+    second: Agujero Haciendose_132
+  - first:
+      213: -3830046566826373651
+    second: Agujero Haciendose_133
+  - first:
+      213: 8352556370941968182
+    second: Agujero Haciendose_134
+  - first:
+      213: -79429886597310573
+    second: Agujero Haciendose_135
+  - first:
+      213: -3991218318712240370
+    second: Agujero Haciendose_136
+  - first:
+      213: -5484374650953256436
+    second: Agujero Haciendose_137
+  - first:
+      213: -5787530380293151589
+    second: Agujero Haciendose_138
+  - first:
+      213: 7135992289602980367
+    second: Agujero Haciendose_139
+  - first:
+      213: -468697916661316075
+    second: Agujero Haciendose_140
+  - first:
+      213: 7601868379385429684
+    second: Agujero Haciendose_141
+  - first:
+      213: 3844811780766509079
+    second: Agujero Haciendose_142
+  - first:
+      213: -938892183865050666
+    second: Agujero Haciendose_143
+  - first:
+      213: -3985805432076246790
+    second: Agujero Haciendose_144
+  - first:
+      213: -3001984040088053674
+    second: Agujero Haciendose_145
+  - first:
+      213: 6935099948675852414
+    second: Agujero Haciendose_146
+  - first:
+      213: -2908080231154827845
+    second: Agujero Haciendose_147
+  - first:
+      213: -2030805249982018551
+    second: Agujero Haciendose_148
+  - first:
+      213: 8150398420054785867
+    second: Agujero Haciendose_149
+  - first:
+      213: 215428982488530221
+    second: Agujero Haciendose_150
+  - first:
+      213: 3810331320066907047
+    second: Agujero Haciendose_151
+  - first:
+      213: -8003162297710205647
+    second: Agujero Haciendose_152
+  - first:
+      213: -6393423879242558021
+    second: Agujero Haciendose_153
+  - first:
+      213: -7365782428539454196
+    second: Agujero Haciendose_154
+  - first:
+      213: -3514436830583820408
+    second: Agujero Haciendose_155
+  - first:
+      213: -8291911605705092830
+    second: Agujero Haciendose_156
+  - first:
+      213: 5312754139079436124
+    second: Agujero Haciendose_157
+  - first:
+      213: 6494898418695561793
+    second: Agujero Haciendose_158
+  - first:
+      213: 7776094234254061061
+    second: Agujero Haciendose_159
+  - first:
+      213: -5060598319896945832
+    second: Agujero Haciendose_160
+  - first:
+      213: 584841699841231267
+    second: Agujero Haciendose_161
+  - first:
+      213: 7231708582695629869
+    second: Agujero Haciendose_162
+  - first:
+      213: 8377772331870895727
+    second: Agujero Haciendose_163
+  - first:
+      213: -3089548335659716566
+    second: Agujero Haciendose_164
+  - first:
+      213: -6577786263746574339
+    second: Agujero Haciendose_165
+  - first:
+      213: -5622327892833841421
+    second: Agujero Haciendose_166
+  - first:
+      213: 5967338499632352921
+    second: Agujero Haciendose_167
+  - first:
+      213: 6794441833463281521
+    second: Agujero Haciendose_168
+  - first:
+      213: -4968540904132223206
+    second: Agujero Haciendose_169
+  - first:
+      213: 7059076835098901829
+    second: Agujero Haciendose_170
+  - first:
+      213: 4111999450909779733
+    second: Agujero Haciendose_171
+  - first:
+      213: 8768415310464938739
+    second: Agujero Haciendose_172
+  - first:
+      213: -7542858278373159074
+    second: Agujero Haciendose_173
+  - first:
+      213: 6330433437578905006
+    second: Agujero Haciendose_174
+  - first:
+      213: 2777926867517411050
+    second: Agujero Haciendose_175
+  - first:
+      213: 7663528215585128060
+    second: Agujero Haciendose_176
+  - first:
+      213: -8903916631533897299
+    second: Agujero Haciendose_177
+  - first:
+      213: -6032091236934993741
+    second: Agujero Haciendose_178
+  - first:
+      213: -6426887812358491184
+    second: Agujero Haciendose_179
+  - first:
+      213: -9087682900765401936
+    second: Agujero Haciendose_180
+  - first:
+      213: -2862457965240218088
+    second: Agujero Haciendose_181
+  - first:
+      213: 6549136983706521909
+    second: Agujero Haciendose_182
+  - first:
+      213: -5270730452728999844
+    second: Agujero Haciendose_183
+  - first:
+      213: 1661582199200832108
+    second: Agujero Haciendose_184
+  - first:
+      213: -155124532258065702
+    second: Agujero Haciendose_185
+  - first:
+      213: -4432946847971994327
+    second: Agujero Haciendose_186
+  - first:
+      213: -7708282015506072721
+    second: Agujero Haciendose_187
+  - first:
+      213: -105870357072856120
+    second: Agujero Haciendose_188
+  - first:
+      213: -6099124286614615329
+    second: Agujero Haciendose_189
+  - first:
+      213: 558917468633083488
+    second: Agujero Haciendose_190
+  - first:
+      213: 3131428616846389043
+    second: Agujero Haciendose_191
+  - first:
+      213: 6564988358671563066
+    second: Agujero Haciendose_192
+  - first:
+      213: -2636434321192979613
+    second: Agujero Haciendose_193
+  - first:
+      213: 1268236684498545569
+    second: Agujero Haciendose_194
+  - first:
+      213: 7188623482831960373
+    second: Agujero Haciendose_195
+  - first:
+      213: -4906550776097470918
+    second: Agujero Haciendose_196
+  - first:
+      213: -1114150667189925766
+    second: Agujero Haciendose_197
+  - first:
+      213: -4687858396929338322
+    second: Agujero Haciendose_198
+  - first:
+      213: -3898929619555763215
+    second: Agujero Haciendose_199
+  - first:
+      213: 1870066444562039719
+    second: Agujero Haciendose_200
+  - first:
+      213: 5239716315900239392
+    second: Agujero Haciendose_201
+  - first:
+      213: 7235833352175846266
+    second: Agujero Haciendose_202
+  - first:
+      213: 644640986351916518
+    second: Agujero Haciendose_203
+  - first:
+      213: 7018464053083138160
+    second: Agujero Haciendose_204
+  - first:
+      213: -7530384755277521596
+    second: Agujero Haciendose_205
+  - first:
+      213: -2478188488047321667
+    second: Agujero Haciendose_206
+  - first:
+      213: 8197017758141334729
+    second: Agujero Haciendose_207
+  - first:
+      213: -1743027730748630783
+    second: Agujero Haciendose_208
+  - first:
+      213: -4811936434230643897
+    second: Agujero Haciendose_209
+  - first:
+      213: -5683917534030612427
+    second: Agujero Haciendose_210
+  - first:
+      213: 6896404043141372961
+    second: Agujero Haciendose_211
+  - first:
+      213: 2391773812574073500
+    second: Agujero Haciendose_212
+  - first:
+      213: -3277364124434916846
+    second: Agujero Haciendose_213
+  - first:
+      213: 8940564363691074463
+    second: Agujero Haciendose_214
+  - first:
+      213: -5021784220860463264
+    second: Agujero Haciendose_215
+  - first:
+      213: 6188774338871844022
+    second: Agujero Haciendose_216
+  - first:
+      213: -1390112213066881528
+    second: Agujero Haciendose_217
+  - first:
+      213: 670034841377607273
+    second: Agujero Haciendose_218
+  - first:
+      213: 15088833929392262
+    second: Agujero Haciendose_219
+  - first:
+      213: -4696359425040331127
+    second: Agujero Haciendose_220
+  - first:
+      213: 1957870624350970004
+    second: Agujero Haciendose_221
+  - first:
+      213: 5642636883080999616
+    second: Agujero Haciendose_222
+  - first:
+      213: 8945266281526185975
+    second: Agujero Haciendose_223
+  - first:
+      213: -8818316476390957457
+    second: Agujero Haciendose_224
+  - first:
+      213: 2496898258248906476
+    second: Agujero Haciendose_225
+  - first:
+      213: 8243898383490711141
+    second: Agujero Haciendose_226
+  - first:
+      213: -7083346971274435569
+    second: Agujero Haciendose_227
+  - first:
+      213: 8013836863439482572
+    second: Agujero Haciendose_228
+  - first:
+      213: 6972326024104265976
+    second: Agujero Haciendose_229
+  - first:
+      213: 5867499319370615500
+    second: Agujero Haciendose_230
+  - first:
+      213: -6932439837831403796
+    second: Agujero Haciendose_231
+  - first:
+      213: 8869628132646467088
+    second: Agujero Haciendose_232
+  - first:
+      213: -619942899379681032
+    second: Agujero Haciendose_233
+  - first:
+      213: 2003256819703004183
+    second: Agujero Haciendose_234
+  - first:
+      213: 1195891363490553539
+    second: Agujero Haciendose_235
+  - first:
+      213: -3310236956603600605
+    second: Agujero Haciendose_236
+  - first:
+      213: 4176443262869230747
+    second: Agujero Haciendose_237
+  - first:
+      213: 88185039170313418
+    second: Agujero Haciendose_238
+  - first:
+      213: 7200312214312818695
+    second: Agujero Haciendose_239
+  - first:
+      213: -3652799593405064161
+    second: Agujero Haciendose_240
+  - first:
+      213: 882009557458056786
+    second: Agujero Haciendose_241
+  - first:
+      213: -4591867394622816256
+    second: Agujero Haciendose_242
+  - first:
+      213: 6697335037800996092
+    second: Agujero Haciendose_243
+  - first:
+      213: 1933793774931154265
+    second: Agujero Haciendose_244
+  - first:
+      213: -8514868625895465762
+    second: Agujero Haciendose_245
+  - first:
+      213: 1154752432212107416
+    second: Agujero Haciendose_246
+  - first:
+      213: -1691654263670283753
+    second: Agujero Haciendose_247
+  - first:
+      213: -6005385406703457967
+    second: Agujero Haciendose_248
+  - first:
+      213: -5789403918696862658
+    second: Agujero Haciendose_249
+  - first:
+      213: -665654963436119953
+    second: Agujero Haciendose_250
+  - first:
+      213: 567265676674840844
+    second: Agujero Haciendose_251
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Agujero Haciendose_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 2698
+        height: 415
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11e74caaabdf3afe0800000000000000
+      internalID: -1178819699270189551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
