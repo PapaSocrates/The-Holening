@@ -5,25 +5,13 @@ using UnityEngine.InputSystem;
 
 public class InputControl : MonoBehaviour
 {
-    bool tap = false;
+    public Collider2D rat;
+    bool killable = false;
 
     public CircleCollider2D colision;
 
-    public void OnCollisionStay2D(Collision2D other)
-    {
-        print("colisiona");
-        if (other.gameObject.CompareTag("Rat") && tap )
-        {
-            print("chocar con rat");
-            Destroy(other.gameObject);
-            tap = false;
-        }
-    }
 
-    public void TapRat()
-    {
-        tap = true;
-    }
+
     public void MoveBox()
     {
 
@@ -33,15 +21,28 @@ public class InputControl : MonoBehaviour
     {
 
     }
-    void Start()
-    {
-        
-    }
 
     // Update is called once per frame
     void Update()
     {
         Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         transform.position = mousePos;
+    }
+
+    public void TapRat()
+    {
+        if (colision.IsTouching(rat))
+        {
+            Destroy(rat.gameObject);
+        }
+    }
+
+    public void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.gameObject.CompareTag("Rat"))
+        {
+            killable = true;
+            rat = other.gameObject.GetComponent<CircleCollider2D>();
+        }
     }
 }

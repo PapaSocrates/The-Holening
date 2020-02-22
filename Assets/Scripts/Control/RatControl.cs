@@ -48,6 +48,17 @@ public class @RatControl : IInputActionCollection, IDisposable
                     ""isPartOfComposite"": false
                 },
                 {
+                    ""name"": """",
+                    ""id"": ""65e6d8d4-a06c-4e40-b799-17583176e2eb"",
+                    ""path"": ""<Touchscreen>/primaryTouch/pressure"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Phone"",
+                    ""action"": ""TapRat"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
                     ""name"": ""1D Axis"",
                     ""id"": ""0e3c90ca-b66d-4893-86ea-5070301c2863"",
                     ""path"": ""1DAxis"",
