@@ -20,6 +20,14 @@
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": ""
+                },
+                {
+                    "name": "Menú",
+                    "type": "Button",
+                    "id": "1e513560-8a64-4163-8483-dc35446b520a",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": ""
                 }
             ],
             "bindings": [
@@ -77,6 +85,17 @@
                     "action": "MoveBox",
                     "isComposite": false,
                     "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "ba2dfbd5-19ad-4ed5-bbe7-57bbf0398cdf",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "KeyMouse",
+                    "action": "Menú",
+                    "isComposite": false,
+                    "isPartOfComposite": false
                 }
             ]
         }

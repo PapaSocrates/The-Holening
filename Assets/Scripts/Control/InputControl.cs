@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class InputControl : MonoBehaviour
 {
@@ -45,5 +46,10 @@ public class InputControl : MonoBehaviour
             killable = true;
             rat = other.gameObject.GetComponent<CircleCollider2D>();
         }
+    }
+
+    public void Menu()
+    {
+        SceneManager.LoadScene(0);
     }
 }

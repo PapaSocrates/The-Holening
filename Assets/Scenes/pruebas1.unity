@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -909,6 +909,21 @@ MonoBehaviour:
       m_Calls: []
     m_ActionId: 3f69a6b7-7cc9-4146-98ff-4664c755c231
     m_ActionName: ratControl/MoveBox[/Keyboard/a,/Keyboard/d]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1425092097}
+        m_MethodName: Menu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 1e513560-8a64-4163-8483-dc35446b520a
+    m_ActionName: "ratControl/Men\xFA[/Keyboard/escape]"
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: KeyMouse
   m_DefaultActionMap: ratControl

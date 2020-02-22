@@ -33,6 +33,14 @@ public class @RatControl : IInputActionCollection, IDisposable
                     ""expectedControlType"": """",
                     ""processors"": """",
                     ""interactions"": """"
+                },
+                {
+                    ""name"": ""Menú"",
+                    ""type"": ""Button"",
+                    ""id"": ""1e513560-8a64-4163-8483-dc35446b520a"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """"
                 }
             ],
             ""bindings"": [
@@ -90,6 +98,17 @@ public class @RatControl : IInputActionCollection, IDisposable
                     ""action"": ""MoveBox"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""ba2dfbd5-19ad-4ed5-bbe7-57bbf0398cdf"",
+                    ""path"": ""<Keyboard>/escape"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""KeyMouse"",
+                    ""action"": ""Menú"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -128,6 +147,7 @@ public class @RatControl : IInputActionCollection, IDisposable
         m_ratControl = asset.FindActionMap("ratControl", throwIfNotFound: true);
         m_ratControl_TapRat = m_ratControl.FindAction("TapRat", throwIfNotFound: true);
         m_ratControl_MoveBox = m_ratControl.FindAction("MoveBox", throwIfNotFound: true);
+        m_ratControl_Menú = m_ratControl.FindAction("Menú", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -179,12 +199,14 @@ public class @RatControl : IInputActionCollection, IDisposable
     private IRatControlActions m_RatControlActionsCallbackInterface;
     private readonly InputAction m_ratControl_TapRat;
     private readonly InputAction m_ratControl_MoveBox;
+    private readonly InputAction m_ratControl_Menú;
     public struct RatControlActions
     {
         private @RatControl m_Wrapper;
         public RatControlActions(@RatControl wrapper) { m_Wrapper = wrapper; }
         public InputAction @TapRat => m_Wrapper.m_ratControl_TapRat;
         public InputAction @MoveBox => m_Wrapper.m_ratControl_MoveBox;
+        public InputAction @Menú => m_Wrapper.m_ratControl_Menú;
         public InputActionMap Get() { return m_Wrapper.m_ratControl; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -200,6 +222,9 @@ public class @RatControl : IInputActionCollection, IDisposable
                 @MoveBox.started -= m_Wrapper.m_RatControlActionsCallbackInterface.OnMoveBox;
                 @MoveBox.performed -= m_Wrapper.m_RatControlActionsCallbackInterface.OnMoveBox;
                 @MoveBox.canceled -= m_Wrapper.m_RatControlActionsCallbackInterface.OnMoveBox;
+                @Menú.started -= m_Wrapper.m_RatControlActionsCallbackInterface.OnMenú;
+                @Menú.performed -= m_Wrapper.m_RatControlActionsCallbackInterface.OnMenú;
+                @Menú.canceled -= m_Wrapper.m_RatControlActionsCallbackInterface.OnMenú;
             }
             m_Wrapper.m_RatControlActionsCallbackInterface = instance;
             if (instance != null)
@@ -210,6 +235,9 @@ public class @RatControl : IInputActionCollection, IDisposable
                 @MoveBox.started += instance.OnMoveBox;
                 @MoveBox.performed += instance.OnMoveBox;
                 @MoveBox.canceled += instance.OnMoveBox;
+                @Menú.started += instance.OnMenú;
+                @Menú.performed += instance.OnMenú;
+                @Menú.canceled += instance.OnMenú;
             }
         }
     }
@@ -236,5 +264,6 @@ public class @RatControl : IInputActionCollection, IDisposable
     {
         void OnTapRat(InputAction.CallbackContext context);
         void OnMoveBox(InputAction.CallbackContext context);
+        void OnMenú(InputAction.CallbackContext context);
     }
 }

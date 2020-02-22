@@ -55,4 +55,10 @@ public class cambiaCanvas : MonoBehaviour
     {
         Application.Quit();
     }
+
+    public void StartGame()
+    {
+        Scene escenaActual = SceneManager.GetActiveScene();
+        SceneManager.LoadScene(escenaActual.buildIndex + 1);
+    }
 }
